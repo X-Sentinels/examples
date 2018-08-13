@@ -45,6 +45,7 @@ list
 url
 
 [link-to-ecnu](http://www.ecnu.edu.cn)
+[link-to-baidu](http://www.baidu.com)
 
 image
 

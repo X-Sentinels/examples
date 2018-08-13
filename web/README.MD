@@ -36,3 +36,29 @@
 ```
 ./env/bin/python run.py
 ```
+
+#### 示例
+##### /hello
+```
+# curl http://127.0.0.1:1234/hello
+<html>
+    hellow world , version is 0.0.1
+</html>
+```
+##### /api/v1/hello
+```
+# curl http://127.0.0.1:1234/api/v1/version
+{"msg":"missing X-API-KEY or KEY is Wrong","success":false}
+```
+##### /api/v1/version
+需要 X-API-KEY 授权
+成功示例
+```
+# curl -H "X-API-Key: ffa868e21ebcd17cc561cabcc4c7c90f" http://127.0.0.1:1234/api/v1/version
+{"success":true,"version":"0.0.1"}
+```
+失败示例
+```
+# curl http://127.0.0.1:1234/api/v1/version
+{"msg":"missing X-API-KEY or KEY is Wrong","success":false}
+```

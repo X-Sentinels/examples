@@ -1,0 +1,5 @@
+# VERSION
+VERSION = "0.0.1"
+BIND_ADDRESS = "0.0.0.0"
+PORT = 1234
+KEY = "ffa868e21ebcd17cc561cabcc4c7c90f"

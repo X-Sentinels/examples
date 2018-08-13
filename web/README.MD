@@ -14,6 +14,7 @@
 # cd web
 # virtualenv env
 # ./env/bin/pip install -r requirement.txt 
+# chmod +x control
 ```
 
 #### 运行

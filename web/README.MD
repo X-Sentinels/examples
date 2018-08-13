@@ -52,6 +52,7 @@
 ```
 ##### /api/v1/version
 需要 X-API-KEY 授权
+
 成功示例
 ```
 # curl -H "X-API-Key: ffa868e21ebcd17cc561cabcc4c7c90f" http://127.0.0.1:1234/api/v1/version
